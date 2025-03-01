@@ -1,18 +1,18 @@
-*{ padding: 0;
+*{
     margin: 0;
 }
 @font-face {
     font-family:'Galindo';
-    src: url(fonts/Galindo/Galindo-Regular.ttf) format('truetype');
+    src: url('fonts/Galindo/Galindo-Regular.ttf') format('truetype');
 }
 @font-face {
     font-family: 'Galdeano';
-    src: url(fonts/Galdeano/Galdeano-Regular.ttf) format('truetype');
+    src: url('fonts/Galdeano/Galdeano-Regular.ttf') format('truetype');
 }
 
 @font-face {
     font-family: 'PlayfairDisplayExBold';
-    src: url(fonts/PlayfairDisplay/PlayfairDisplay-ExtraBold.ttf) format(truetype);
+    src: url('fonts/PlayfairDisplay/PlayfairDisplay-ExtraBold.ttf') format('truetype');
 }
 
 body{
@@ -87,7 +87,7 @@ header{
 /*footer*/
 
 footer{
-    background-image: url('/images/footer.png');
+    background-image: url('images/footer.png');
     background-size: cover;
     background-position: center;
     padding-top: 1em;
