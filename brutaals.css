@@ -87,7 +87,7 @@ header{
 /*footer*/
 
 footer{
-    background-image: url(images/footer.png);
+    background-image: url('images/footer.png');
     background-size: cover;
     background-position: center;
     padding-top: 1em;
